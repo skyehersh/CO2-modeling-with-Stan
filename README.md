@@ -12,7 +12,7 @@ the threshold over which we critically reduce our chance to stabilize the averag
 global temperature. I evaluate and compare a quadratic (likelihood) model and an 
 exponential (likelihood) model for the task. I propose priors for their parameters, 
 explaining my reasoning, and then use RStan, an imperative probabilistic programming 
-language, to arrive at the parameters’ posterior predicted distributions. Having 
+language, to arrive at the parameters’ posterior predictive distributions. Having 
 arrived at appropriate parameters, I use RStan to generate future predicted values for 
 CO<sub>2</sub> in ppm. 
 
